@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.demo.tutorial</groupId>
-    <artifactId>addressbook</artifactId>
+    <artifactId>addressbook-guru</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Address Book Demo</name>
-    <url>https://github.com/puneetbhatia77/addressbook</url>
+    <name>addressbook-guru</name>
+    <url>https://github.com/guruprasadkm2000/addressbook-guru.git</url>
     <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,15 +15,15 @@
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.8</sourceJdk>
         <targetJdk>1.8</targetJdk>
-        <github.account>puneetbhatia77</github.account>
+        <github.account>guruprasadkm2000</github.account>
         <thucydides.version>0.9.268</thucydides.version>
-        <jelastic.context>addressbook</jelastic.context>
+        <jelastic.context>addressbook-guru</jelastic.context>
     </properties>
 
     <scm>
-            <connection>scm:https://github.com/puneetbhatia77/addressbook.git</connection>
-            <developerConnection>scm:https://github.com/puneetbhatia77/addressbook.git</developerConnection>
-            <url>scm:https://github.com/puneetbhatia77/addressbook.git</url>
+            <connection>scm:https://github.com/guruprasadkm2000/addressbook-guru.git</connection>
+            <developerConnection>scm:https://github.com/guruprasadkm2000/addressbook-guru.git</developerConnection>
+            <url>scm:https://github.com/guruprasadkm2000/addressbook-guru.git</url>
     </scm>
 
  <modules>
